@@ -1,12 +1,7 @@
-import SkillGraph from './components/SkillGraph.tsx';
+import SkillGraph from './components/SkillGraph/SkillGraph.tsx';
 
 function App() {
-    return (
-        <div className="App">
-            <h1>Компетенции и навыки</h1>
-            <SkillGraph />
-        </div>
-    );
+    return <SkillGraph />
 }
 
 export default App;
